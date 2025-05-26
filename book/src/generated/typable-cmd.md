@@ -95,3 +95,4 @@
 | `:echo` | Prints the given arguments to the statusline. |
 | `:noop` | Does nothing. |
 | `:echopy`, `:cc` | Put string into clipboard |
+| `:random`, `:rng`, `:rnd` | Randomize your selections. |
