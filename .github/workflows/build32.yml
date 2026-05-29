@@ -40,6 +40,8 @@ jobs:
           echo "${NDK_BIN}" >> $GITHUB_PATH
 
       - name: Build
+        env:
+          HELIX_DISABLE_AUTO_GRAMMAR_BUILD: 1
         run: cargo build --release --target armv7-linux-androideabi
 
       - name: Upload binary
